@@ -109,18 +109,25 @@ header {
     font-family: "Sono", sans-serif;
     font-weight: 700;
     font-size: 40px; }
-  .main .certificados .galeria img {
-    width: 303px;
-    margin: 10px;
-    opacity: 0.5;
-    border-radius: 10px; }
-    .main .certificados .galeria img:hover {
-      opacity: 1;
-      cursor: pointer;
-      border: 1px solid #fff;
-      transform: scale(1.3);
-      transition: all 0.5s ease;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.9); }
+  .main .certificados .galeria {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .main .certificados .galeria a {
+      margin: 10px; }
+    .main .certificados .galeria img {
+      width: 303px;
+      height: 186px;
+      opacity: 0.5;
+      border-radius: 10px; }
+      .main .certificados .galeria img:hover {
+        opacity: 1;
+        cursor: pointer;
+        border: 1px solid #fff;
+        transform: scale(1.3);
+        transition: all 0.5s ease;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9); }
 
 .main .contacto {
   padding: 20px 20px;
