@@ -366,7 +366,7 @@ footer {
     font-size: 13px; } }
 
 @media screen and (max-width: 419px) {
-  header .contenedor .textos .junior {
+  header .contenedor .textos .fullstack {
     display: block; }
   header .contenedor .textos .ocultar {
     display: none; } }
