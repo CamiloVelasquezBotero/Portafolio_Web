@@ -120,7 +120,8 @@ header {
       width: 303px;
       height: 186px;
       opacity: 0.5;
-      border-radius: 10px; }
+      border-radius: 10px;
+      transition: opacity 1s ease, transform 0.5s ease; }
       .main .certificados .galeria img:hover {
         opacity: 1;
         cursor: pointer;
